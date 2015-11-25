@@ -1,6 +1,6 @@
-# ClipView
+# ClipView [![Maven Central](https://maven-badges.herokuapp.com/maven-central/me.mattak/clipview/badge.svg)](https://maven-badges.herokuapp.com/maven-central/me.mattak/clipview) [![Build Status](https://travis-ci.org/mattak/ClipView.svg)](https://travis-ci.org/mattak/ClipView)
 
-Android clipping view
+Android library for clipping view.
 
 # Usage
 

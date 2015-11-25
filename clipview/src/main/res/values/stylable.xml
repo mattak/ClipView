@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClipView">
+        <attr name="clipRound" format="dimension" />
+        <attr name="clipPadding" format="dimension" />
+    </declare-styleable>
+</resources>

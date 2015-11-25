@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="me.mattak.example.clipview.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clip" />
+
+    <me.mattak.clipview.ClipFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        app:clipRound="8dp">
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light" />
+
+    </me.mattak.clipview.ClipFrameLayout>
+
+    <me.mattak.clipview.ClipFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        app:clipRound="8dp">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light" />
+
+    </me.mattak.clipview.ClipFrameLayout>
+
+    <me.mattak.clipview.ClipFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        app:clipRound="8dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light" />
+
+    </me.mattak.clipview.ClipFrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clip with padding" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round">
+
+        <me.mattak.clipview.ClipFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            app:clipPadding="2dp"
+            app:clipRound="8dp">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_red_light" />
+
+        </me.mattak.clipview.ClipFrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round">
+
+        <me.mattak.clipview.ClipLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            app:clipPadding="2dp"
+            app:clipRound="8dp">
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_red_light" />
+
+        </me.mattak.clipview.ClipLinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round">
+
+        <me.mattak.clipview.ClipLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:clipPadding="2dp"
+            app:clipRound="8dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_red_light" />
+
+        </me.mattak.clipview.ClipLinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

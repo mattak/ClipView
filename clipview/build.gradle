@@ -43,6 +43,10 @@ android {
     packagingOptions {
         exclude 'LICENSE'
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
 

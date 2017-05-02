@@ -2,10 +2,8 @@ language: android
 jdk: oraclejdk8
 android:
   components:
+    - tools
     - build-tools-23.0.3
     - android-23
     - extra
-before_install:
-  - android-update-sdk --accept-licenses='android-sdk-license-.+' --components=tools
-  - android-update-sdk --accept-licenses='android-sdk-license-.+' --components=build-tools-23.0.3
 script: ./gradlew build

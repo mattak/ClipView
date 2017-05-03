@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clip" />
+        android:text="@string/text_clip" />
 
     <me.mattak.clipview.ClipFrameLayout
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
         <View
             android:layout_width="5dp"
             android:layout_height="match_parent"
-            android:background="@android:color/holo_red_light" />
+            android:background="@color/colorAccent" />
 
     </me.mattak.clipview.ClipFrameLayout>
 
@@ -42,7 +42,7 @@
         <View
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:background="@android:color/holo_red_light" />
+            android:background="@color/colorAccent" />
 
     </me.mattak.clipview.ClipFrameLayout>
 
@@ -56,14 +56,14 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/holo_red_light" />
+            android:background="@color/colorAccent" />
 
     </me.mattak.clipview.ClipFrameLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clip with padding" />
+        android:text="@string/text_clip_with_padding" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             <View
                 android:layout_width="5dp"
                 android:layout_height="match_parent"
-                android:background="@android:color/holo_red_light" />
+                android:background="@color/colorAccent" />
 
         </me.mattak.clipview.ClipFrameLayout>
 
@@ -103,7 +103,7 @@
             <View
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:background="@android:color/holo_red_light" />
+                android:background="@color/colorAccent" />
 
         </me.mattak.clipview.ClipLinearLayout>
 
@@ -124,7 +124,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@android:color/holo_red_light" />
+                android:background="@color/colorAccent" />
 
         </me.mattak.clipview.ClipLinearLayout>
 

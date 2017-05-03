@@ -23,17 +23,17 @@ ext {
 }
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion COMPILE_SDK_VERSION
+    buildToolsVersion BUILD_TOOLS_VERSION
 
     defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 23
+        minSdkVersion MIN_SDK_VERSION
+        targetSdkVersion TARGET_SDK_VERSION
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     jacoco {
-        version = '0.7.2.201409121644'
+        version = '0.7.9'
     }
 
     testOptions {
@@ -42,10 +42,6 @@ android {
 
     packagingOptions {
         exclude 'LICENSE'
-    }
-
-    lintOptions {
-        abortOnError false
     }
 }
 
@@ -70,8 +66,10 @@ artifacts {
     archives sourcesJar
 }
 
-task findConvensions << {
-    println project.getConvention()
+task findConvensions {
+    doLast {
+        println project.getConvention()
+    }
 }
 
 if (gradle.startParameter.taskNames.contains('uploadArchives')) {

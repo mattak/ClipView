@@ -28,7 +28,7 @@ compile 'me.mattak:clipview:0.0.3'
 
 ![clipview](./art/clipview.png)
 
-# ACKNOWLEDGEMENTS
+# Acknowledgements
 
 - [@pine](https://github.com/pine) for updating build tool-chains
 

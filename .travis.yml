@@ -3,7 +3,13 @@ jdk: oraclejdk8
 android:
   components:
     - tools
-    - build-tools-23.0.3
-    - android-23
+    - build-tools-25.0.2
+    - android-25
     - extra
-script: ./gradlew build
+script: ./gradlew clean build
+addons:
+  apt:
+    packages:
+      - lynx
+after_failure:
+  - if [ -f /home/travis/build/mattak/ClipView/app/build/reports/lint-results.html ]; then lynx -dump /home/travis/build/mattak/ClipView/app/build/reports/lint-results.html; fi

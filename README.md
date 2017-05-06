@@ -2,6 +2,12 @@
 
 Android library for clipping view.
 
+# Install
+
+```gradle
+compile 'me.mattak:clipview:0.0.3'
+```
+
 # Usage
 
 ```xml
@@ -21,3 +27,8 @@ Android library for clipping view.
 ```
 
 ![clipview](./art/clipview.png)
+
+# ACKNOWLEDGEMENTS
+
+- [@pine](https://github.com/pine) for updating build tool-chains
+

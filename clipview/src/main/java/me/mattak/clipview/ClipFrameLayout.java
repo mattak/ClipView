@@ -25,7 +25,6 @@ public class ClipFrameLayout extends FrameLayout {
         mHelper = new ClipHelper(this, attrs);
     }
 
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public ClipFrameLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mHelper = new ClipHelper(this, attrs);

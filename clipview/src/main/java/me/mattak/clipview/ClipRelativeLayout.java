@@ -25,7 +25,6 @@ public class ClipRelativeLayout extends RelativeLayout {
         mHelper = new ClipHelper(this, attrs);
     }
 
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public ClipRelativeLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mHelper = new ClipHelper(this, attrs);

@@ -43,10 +43,6 @@ android {
     packagingOptions {
         exclude 'LICENSE'
     }
-
-    lintOptions {
-        disable 'NewApi'
-    }
 }
 
 
